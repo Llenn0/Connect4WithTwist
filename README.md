@@ -1,1 +1,4 @@
-# Connect4WithTwist
+# Connect4 With a Twist
+This project was in development during March 2020 as part of Edinburgh University's Reasoning and Agents course. This is a version of Connect 4 written in Haskell, but with a twist. You can rotate the board 90 degrees, and all pegs will fall according to gravity. My task was to implement a minimax algorithm with alpha-beta pruning in order to create a clever computer opponent to fight against. The actual Connect 4 implementation was a given for the task, and not written by me. I found this project quite interesting, and the resulting opponent was quite effective. I recieved a score of 77.5% for this coursework, though that consisted of more sections of work than just this task.  
+
+The file Connect4.hs contains my code for the computer opponent. In order to run the program, you will need to install Haskell. From GHCI you can then load the file PlayGame.hs and run the function playGameMain to battle against the AI!
